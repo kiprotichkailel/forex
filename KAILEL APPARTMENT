@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KAILEL Apartments - Modern Living Spaces with Comfort and Style">
+  <title>KAILEL Apartments</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Welcome to KAILEL Apartments</h1>
+      <p>Your dream apartment awaits. Experience comfort and modern living.</p>
+      <a href="#about" class="cta-button">Explore Our Apartments</a>
+    </div>
+  </header>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About KAILEL Apartments</h2>
+      <p>KAILEL Apartments offers beautifully designed living spaces in the heart of Kangaru Market. Whether you're looking for a cozy studio or a spacious 2-bedroom apartment, we have a range of options to suit your lifestyle.</p>
+      <p><strong>Mission:</strong> To provide quality living spaces that combine comfort, convenience, and affordability.</p>
+      <p><strong>Vision:</strong> To create a vibrant community of residents who enjoy modern living in a secure and welcoming environment.</p>
+      <p><strong>Location:</strong> KAILEL Apartments is conveniently located in the heart of Kangaru Market, a thriving area with easy access to shops, transportation, and local amenities.</p>
+    </div>
+  </section>
+
+  <!-- Apartment Listings Section -->
+  <section id="apartments">
+    <div class="container">
+      <h2>Our Apartments</h2>
+      <div class="apartment">
+        <h3>Studio Apartments</h3>
+        <p>Cozy and affordable studio apartments perfect for singles or couples.</p>
+        <button class="cta-button">View Details</button>
+      </div>
+      <div class="apartment">
+        <h3>1-Bedroom Apartments</h3>
+        <p>Spacious 1-bedroom apartments with modern amenities.</p>
+        <button class="cta-button">View Details</button>
+      </div>
+      <div class="apartment">
+        <h3>2-Bedroom Apartments</h3>
+        <p>Elegant 2-bedroom apartments designed for families or roommates.</p>
+        <button class="cta-button">View Details</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <div class="container">
+      <h2>Apartment Gallery</h2>
+      <p>Take a look at the beautiful spaces waiting for you!</p>
+      <div class="images">
+        <img src="apartment1.jpg" alt="Studio Apartment">
+        <img src="apartment2.jpg" alt="1-Bedroom Apartment">
+        <img src="apartment3.jpg" alt="2-Bedroom Apartment">
+        <!-- Add more apartment photos here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+      <p><strong>Email:</strong> <a href="mailto:kailelapartments@gmail.com">kailelapartments@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+254705636703">+254 705 636 703</a></p>
+      <p><strong>Location:</strong> Kangaru Market, [Your City], Kenya</p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 KAILEL Apartments. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
